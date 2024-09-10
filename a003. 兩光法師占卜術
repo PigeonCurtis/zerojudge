@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+  string a[3]={"普通","吉","大吉"};
+  int M,N;
+  cin>>M>>N;
+  int D=(M*2+N)%3;
+  if(D==0)
+    cout<<a[0];
+  else if (D==1)
+    cout<<a[1];
+  else if (D==2)
+      cout<<a[2];
+}
